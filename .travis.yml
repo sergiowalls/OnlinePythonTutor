@@ -12,9 +12,3 @@ install:
 
 script:
   - npm run production-build
-
-deploy:
-  provider: releases
-  api_key:
-    secure: P10o1IAhUCte0i2+cvhVCsOYOe34+jPrPkL1LcbwQ1CTC4x08TM7mehonJC7+9YjvWL6vyrKOU8dpANX0fNIPhHp0LXK8N2i2YYhJbPv98mimDerY8uFaniM4Oob6ZGXP/+mmKr2IjOnMsiuq/2M2D7rbC+6Pf9xuPF+IqlqRn75g1TErnyjIUlssWa6zES9JhzpOkqpZhWX2B+2TWnguaxoo3EQGIMLkjvZOmstEa+LdKqnAjwyVQfALXNP1rH5tS8eX5bS2kxKPfi5s2Gg5QXdOqMRc8pH+JNDQMqmg0rAjIeqmhsMa5n2laXJxO/7Es8e8wH00gjxSrWV/MmC0hFCT4orTjeZm4Hwybv7uP6yQqpnmMzSlav7+s1+aejErjl5wVgriHDPqcSl6agmtz14AYGMasluAcP8TVW0PUhmcFBcB6xmpXAuwRKucwxGPQuW6vUF2xAmOlvJ9FKxjkHMm9ZBdtIJe8lOLiqSLovaBw0W7A4Twb7SkZbjBbDKtbRF82E/oio+hvNYnNYfFpDMrnMLoaYG49wT71nsNxgCUa0/xWxU+hZt4EVe1xJdrv5tE5g9fC0Bx9XVui1SMh5B/HfGxeCt05NTTPBXu/c/HG+aZNqMy4zllz1+GMdytjwcQva4tuQ9jzDqMrNRJ3L9Eqwu4Ts8F6MsJBWSx18=
-  file: build/index.bundle.js
