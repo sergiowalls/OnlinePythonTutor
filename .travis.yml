@@ -3,6 +3,7 @@ node_js:
   - "10"
 
  before_install:
+  - cd v5-unity
   - npm i -g tsd@0.6.5
 
 install:
