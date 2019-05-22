@@ -14,7 +14,7 @@ script:
   - npm run production-build
 
 before_deploy:
-    - git tag daily
+    - git tag -f daily
 
 deploy:
   provider: releases
