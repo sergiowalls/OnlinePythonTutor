@@ -2,8 +2,10 @@ language: node_js
 node_js:
   - "10"
 
- before_install:
+before_script:
   - cd v5-unity
+
+before_install:
   - npm i -g tsd@0.6.5
 
 install:
