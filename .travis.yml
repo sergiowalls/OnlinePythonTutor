@@ -13,9 +13,6 @@ install:
 script:
   - npm run production-build
 
-before_deploy:
-    - git tag -f daily
-
 deploy:
   provider: releases
   api_key:
