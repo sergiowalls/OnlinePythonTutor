@@ -9,4 +9,6 @@ install:
   - cd v5-unity
   - npm install
   - tsd install
+
+script:
   - npm run production-build
